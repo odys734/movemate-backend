@@ -13,3 +13,5 @@ coverage.out
 .DS_Store
 .vscode/
 .idea/
+
+movemate_schema.sql
