@@ -34,7 +34,9 @@ func main() {
 
 		if origin == "http://127.0.0.1:5173" ||
 			origin == "http://localhost:5173" ||
-                        origin == "https://movemate-app-frontend.lovable.app" {
+			origin == "http://127.0.0.1:8080" ||
+			origin == "http://localhost:8080" ||
+			origin == "https://movemate-app-frontend.lovable.app" {
 			c.Header("Access-Control-Allow-Origin", origin)
 			c.Header("Vary", "Origin")
 			c.Header("Access-Control-Allow-Credentials", "true")
